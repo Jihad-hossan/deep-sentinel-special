@@ -1,0 +1,1072 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+$text_color1: #000;
+$text_color2: #ee2d2f;
+$bg-color: #fefefe;
+
+.container{
+    width: 80%;
+}
+// ============== 
+// header section start
+// ============
+header{
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 24px;
+    position: sticky;
+    top: 0;
+    clear: both;
+    z-index: 100;
+    .my_nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .9rem 0;
+       
+        
+        .menu{
+            align-items: center;
+            .a{
+                margin-left: 2.5rem;
+                text-decoration: none;
+                font-weight: 600;
+                color: $text_color1;
+                transition: .5s;
+                &:hover{
+                    background: url('../image/undrln.png') no-repeat center bottom;
+                    color: $text_color2;
+                }
+            }
+            .shop_btn{
+                margin-left: 2rem;
+                background-color: $text_color2;
+                color: white;
+                padding: .4rem 1.2rem;
+                border-radius: 3rem;
+                transition: .5s ease;
+                text-decoration: none;
+                &:hover{
+                    opacity: .7;
+                }
+            }
+            img{
+                margin-left: 2rem;
+            }
+        }
+    }
+}
+// ============= header section end
+// global ++++++++++++++++++++++++++
+.below_heading{
+    margin-top: 5rem;
+    h3{
+        font-size: 1.9rem;
+        span{
+            color: $text_color2;
+        }
+    }
+}
+.two_button{
+    margin-top: 2.5rem;
+    z-index: 150;
+
+    a{  
+        text-decoration: none;
+        padding: .4rem 1rem;
+        border-radius: 3rem;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: .5s;
+    }
+    .button-one{
+         background-color: #ee2d2f;
+         color: #fff;
+         border: 1px solid $text_color2;
+
+         &:hover{
+             background-color: transparent;
+             color: $text_color2;
+             border-color: $text_color2;
+         }
+    }
+    .button-two{
+        background-color: #fff;
+        color: $text_color1;
+        border: 1px solid #fff;
+
+        &:hover{
+             background-color: $text_color1;
+             color: #fff;
+             border-color: #fff;
+        }
+    }
+}
+// global++++++++++++++++++++++++++++
+// ============= banner section start 
+.banner{
+    position: relative;
+    clear: both;
+   .col-md-7{
+       padding-left: 0 !important;
+       overflow: hidden;
+   }
+   .banner-left{
+       margin-top: 25%; 
+       padding-bottom: 3rem;
+       h2{
+           font-size: 2.5rem;
+           line-height: 3.5rem;
+       }
+       h6{
+           color: #ee2d2f;
+           font-size: 1.2rem;
+           margin: 1.5rem 0;
+       }
+   }
+   .banner-right{
+       position: absolute;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       clear: both;
+       z-index: -10 !important;
+       img{
+        z-index: -10 !important;
+       }
+
+   }
+}
+// ============== banner section end
+
+// =========tablets section start 
+.tablets{
+    z-index: 50;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    }
+    .tablet_each{
+        padding: 1.5rem 3rem;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 2rem;
+        background-color: #fff;
+        z-index: 9;
+
+        p{
+            font-weight: 600;
+            margin-top: .8rem;
+        }
+    }
+// ======== tablets section end
+
+// ======== virtual guard camera start 
+.camera_with_virtual_guard{
+    padding-top: 4rem;
+    margin-bottom: 6rem;
+    .text{
+        margin-top: 3rem;
+        margin-right: 2rem;
+        h2{
+            font-size: 2.3rem;
+            margin-bottom: 2rem;
+            span{
+                color: #ee2d2f;
+            }
+        }
+        p{
+            line-height: 2rem;
+            font-size: 1.1rem;
+
+            span{
+                font-weight: 600;
+            }
+        }
+    }
+    .video{
+        text-align: right;
+        img{
+            width: 90%;
+            &:hover{
+                opacity: .9;
+            }
+        }
+    }
+}
+// ======== virtual guard camera end
+
+//========== security alarm start 
+.security_alarm{
+    padding: 5rem 0;
+    padding-bottom: 5.5rem;
+    background: url('../image/security-alarm-bg.png') no-repeat center center;
+    background-size: cover;
+    .heading{
+        color: #fff;
+        margin-bottom: 3rem;
+        h2{
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+            span{
+                 color: $text_color2;
+                }
+            } 
+    }
+    .body{
+        color: #fff;
+        div{
+            margin-bottom: 2rem;
+            p{
+                margin-top: 1rem
+            }
+        }
+    }
+    .img{
+        height: 800px;
+    }
+
+    .below_heading{
+        margin-top: 0;
+    }
+}
+//========== security alarm end
+
+// ======== stop burglars section strat
+.stop_burglars{
+    padding: 5rem 0;
+
+    .heading{
+        // margin: 2rem auto;
+        text-align: center;
+        h2{
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+            padding: 0 3rem;
+            span{
+                 color: $text_color2;
+                }
+        } 
+    }
+    .inner-stop-burgler{
+        padding: 4rem;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 3rem;
+        margin: 4rem auto 0;
+
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+        }
+
+        .text{
+            vertical-align: middle;
+            margin-top: 5rem;
+
+            .sp_p{
+                color: $text_color2;
+                font-size: 1.3rem;
+            }
+            p{
+                font-size: 1.1rem;
+                margin: 1.5rem 0;
+            }
+            h6{
+                color: $text_color2;
+                font-size: 1.5rem;
+            }
+        }
+        .right-text{
+            margin-left: 2rem;
+        }
+
+        .video{
+            img{
+                width: 100%;
+                max-height: 350px;
+            }
+        }
+    }
+}
+// ======== stop burglars section end
+
+// ========= superhero section start
+.superhero{
+    background-color: #f9f8f8;
+    padding: 4rem 0 5.5rem;
+    .heading{
+        max-width: 75%;
+        margin: auto;
+        text-align: center;
+        h2{
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+            padding: 0 3rem;
+            span{
+                 color: $text_color2;
+                }
+        }
+        p{
+            color: $text_color2;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+        }
+
+    }
+    .superhero-body{
+        max-width: 65%;
+        margin: auto;
+
+        .for-display-flex{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .text{
+                text-align: left;
+                h6{
+                    font-size: 1.3rem;
+                    color: $text_color2;
+                    font-weight: 700;
+                }
+                p{
+                    font-size: 1.1rem;
+                }
+            }
+            .for-margin-left{
+                margin-left: 3rem;
+            }
+            .for-margin-right{
+                margin-right: 2rem;
+            }
+        }
+    }
+    .below_heading{
+        max-width: 75%;
+        margin: auto;
+        text-align: center;
+        margin-top: 4rem;
+        h3{
+            font-size: 1.8rem;
+        }
+    }
+}
+// ========= superhero section end
+
+// ======== all-the-time section start 
+.all_the_time{
+    padding: 5rem 0;
+    padding-bottom: 5.5rem;
+    background: url('../image/all-the-time-bg.png') no-repeat center center;
+    background-size: cover;
+
+    .heading{
+        text-align: center;
+        h2{
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+            padding: 0 3rem;
+            color: #fff;
+            span{
+                 color: $text_color2;
+                }
+        }
+        p{
+            color: $text_color2;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+        }
+    }
+    .cards{
+        margin-top: 3rem;
+        .my_card{
+            text-align: center;
+            color: #fff;
+            border: 1.5px solid #313131;
+            border-radius: 2rem;
+            padding: 3rem 1.5rem;
+            margin: 3rem 1rem 0;
+            height: 460px;
+            transition: .5s;
+            position: relative;
+
+            &:hover{
+                border-color: #fff;
+            }
+    
+            .numbering{
+                position: absolute;
+                top: -15%;
+                left: 46%;
+                p{
+                    color: #fff;
+                    font-size: 2rem;
+                    display: inline-block;
+                    background-color: #1e1e1e;
+                    border-radius: 50%;
+                    padding: .5rem 1.1rem;
+                }
+                .for-rounding{
+                    padding: .5rem .8rem;
+                }
+            }
+            h6{
+                font-size: 1.3rem;
+                margin: 1.3rem auto;
+                font-weight: 600;
+            }
+            .for-margin-top{
+                margin-top: 2rem;
+            }
+            p{
+                color: #313131;
+                line-height: 2rem;
+            }
+        }
+    }
+    .below_heading{
+        h3{
+            color: #fff;
+        }
+    }
+}
+// ======== all-the-time section end
+
+// ======== the easiest section start
+.the_easiest{
+    padding: 5rem 0;
+    padding-bottom: 5.5rem;
+    .heading{
+        text-align: center;
+        margin-bottom: 2rem;
+        h2{
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+            padding: 0 3rem;
+            span{
+                 color: $text_color2;
+                }
+        }
+    }
+    .video{
+        width: 65%;
+        margin: auto;
+    }
+} 
+// ======== the easiest section end
+
+// ======== live guards section start 
+.live_guards{
+    background-color: #f9f8f8;
+    padding: 5rem 0;
+
+    .heading{
+        text-align: center;
+        h2{
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+            padding: 0 3rem;
+            span{
+                 color: $text_color2;
+                }
+        }
+        p{
+            color: $text_color2;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+        }
+    }
+    .my_section1{
+        position: relative;
+        margin-top: 8rem;
+
+        .img{
+            position: absolute;
+            bottom: 0;
+            left: 5%;
+            img{
+                width: 90%;
+            }
+        }
+        .inner-section{
+            padding: 4.5rem 2rem;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 2rem;
+            table{
+                tr{
+                    td{
+                        padding: .5rem;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+    .my_section2{
+        position: relative;
+        margin-top: 8rem;
+
+        .img{
+            position: absolute;
+            bottom: 0;
+            right: 5%;
+            img{
+                width: 90%;
+            }
+        }
+        .inner-section{
+            padding: 4.5rem 2rem;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 2rem;
+            table{
+                tr{
+                    td{
+                        padding: .5rem;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+
+}
+// ========== live guards section end
+
+// ========= monitoring your home start 
+.monitoring_your_home{
+    padding: 5rem 0;
+    padding-bottom: 5.5rem;
+    background-color: #000;
+
+    .heading{
+        text-align: center;
+        h2{
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+            padding: 0 3rem;
+            color: #fff;
+            span{
+                 color: $text_color2;
+                }
+        }
+    }
+    .monitoring-body{
+        margin-top: 5rem;
+        .text{
+            background-color: #141414;
+            border-radius: 1rem;
+            margin-right: 3rem;
+            color: #fff;
+            overflow: hidden;
+            h5{
+                background-color: #7f0103;
+                padding: 2rem;
+                font-size: 1.5rem;
+            }
+            .inner-text{
+                padding: 2rem;
+
+                p{
+                    font-size: 1.1rem;
+                    span{
+                        color: $text_color2;
+                    }
+                    .sp-span{
+                        background-color: #222222;
+                        padding: .5rem 1rem;
+                        border-radius: .7rem;
+                        select{
+                            background-color: #222222;
+                            color: #fff;
+                            border: none !important;
+                        }
+                    }
+                    
+                }
+                .sp-p{
+                    p{
+                        font-size: 1.3rem !important;
+
+                        span{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+                .small{
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+}
+// ========== monitoring your home end
+
+// ========== buy with confidence start
+.buy_with_confidence{
+    padding: 5rem auto;
+    padding-top: 8rem;
+    position: relative;
+    background-color: #e5e5e5;
+    .img{
+        position: absolute;
+        bottom: 10%;
+        left: 13%;
+    }
+    .inner{
+        background: url('../image/Confidence-bg.png') no-repeat center center;
+        background-size: cover;
+        padding: 5rem 3rem;
+        border-radius: 2rem;
+
+        .text{
+            h3{
+                font-size: 1.7rem;
+                color: #fff;
+                span{
+                    color: $text_color2;
+                }
+            }
+            p{
+                color: #fff;
+            }
+            .below_heading{
+                margin-top: 2rem !important;
+                text-align: left !important;
+            }
+        }
+    }
+}
+// ========== buy with confidence end
+
+// ========= testimonial section start 
+.testimonial{
+    background-color: #e5e5e5;
+    padding: 5rem;
+    .heading{
+        text-align: center;
+        margin-bottom: 2rem;
+        h2{
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+            padding: 0 3rem;
+            span{
+                 color: $text_color2;
+                }
+        }
+    }
+    .tns-outer{
+        button{
+            display: none;
+        }
+    }
+    .my-slider{
+        background-color: #e5e5e5 !important;
+        .slide-item{
+            .for-box-shadow{
+                padding: 2rem;
+                background-color: #fff;
+                margin: 1rem;
+                border-radius: 2rem;
+
+                .client{
+                    margin-top: 3rem;
+                    .client_name{
+                        margin-left: 1rem;
+                        h6{
+                        color: $text_color2;
+                        font-weight: 600;
+                    }
+                    p{
+                        color: #b6afaf;
+                    }
+                    }
+                }
+            }
+        }
+    }
+}
+// ========= testimonial section end
+
+// ========= footer start 
+footer{
+    background: url('../image/Footer-bg.png') no-repeat center center;
+    background-size: cover;
+    padding: 5rem 0 0;
+    .heading{
+        text-align: center;
+        h2{
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+            padding: 0 3rem;
+            color: #fff;
+        }
+        p{
+            a{
+                text-decoration: none;
+                color: $text_color2;
+                margin: 0 .5rem;
+            }
+        }
+    }
+    .img{
+        text-align: center;
+        margin: 3rem auto;
+    }
+    .my_contianer{
+        width: 90%;
+        margin: auto;
+        .first_column{
+            div{
+                margin-top: 2rem;
+                p{
+                    color: #fff;
+                    margin: 1rem;
+                    span{
+                        color: $text_color2;
+                        display: inline-block;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+        ul{
+            list-style: none;
+            .header{
+                font-size: 1.2rem;
+                padding: .5rem 1rem;
+                color: #fff;
+            }
+            li{
+                a{
+                    color: #b6afaf;
+                    text-decoration: none;
+                    padding: .5rem 1rem;
+                    display: inline-block;
+                    transition: .3s;
+                }
+                &:hover a{
+                    color: $text_color2;
+                }
+            }
+        }
+        .below_heading{
+            text-align: right !important;
+        }
+        .img{
+            text-align: right;
+        }
+        .for-display-flex{
+            justify-content: space-between;
+            p{
+                color: #fff;
+                span{
+                    color: $text_color2;
+                }
+            }
+            .social-icon{
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    display: inline-block;
+                    margin: 0 .5rem;
+                    transition: .5s;
+                    &:hover{
+                        color: $text_color2;
+                    }
+                }
+            }
+        }
+    }
+}
+// ========= footer end
+
+
+// =========
+// button popup start
+// ========================
+.button-popup{
+    width: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    h4{
+        margin-bottom: 1rem;
+        color: $text_color2;
+    }
+    form{
+        background-color: bisque;
+        padding: 1rem;
+        .form-control{
+            margin: 1rem auto;
+
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        button{
+            width: 50% !important;
+            display: block !important;
+        }
+    }
+}
+// =========
+// button popup end
+// ========================
+
+// =======
+// sidebar start
+// =======
+.sidebar{
+    position: fixed;
+    top: 10%;
+    right: -30%;
+    height: 100%;
+    min-width: 30%;
+    background-color: #fff;
+    padding: 2rem;
+    transition: .7s;
+    opacity: 0;
+    
+    .nav{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        a{
+            color: $text_color1;
+            padding: 1rem 0;
+            font-weight: 600;
+            transition: .5s;
+
+            &:hover{
+                color: $text_color2;
+                font-weight: 700;
+            }
+        }
+
+    }
+}
+.show_menu{
+    right: 0;
+    opacity: 1;
+}
+// =======
+// sidebar end
+// ====================
+
+
+// ========****************************
+// =====**************************************
+//media for 1300px to 1400px
+@media (min-width: 1300px) and (max-width: 1400px){
+    .all_the_time{
+        .cards{
+            .my_card{
+                height: 525px;
+            }
+        }
+    }
+} 
+
+// media for cards
+@media (min-width: 1200px) and (max-width: 1299px){
+    .all_the_time{
+        .cards{
+            .my_card{
+                height: 575px;
+            }
+        }
+    }
+}
+// media query for 1200px to 1399px
+@media (min-width: 1200px) and (max-width: 1399px){
+    .banner{
+        .banner-right{
+            left: 60%;
+        }
+    }
+    .camera_with_virtual_guard{
+        .text{
+            margin-top: 0;
+        }
+    }
+    .monitoring_your_home{
+        .monitoring-body{
+            .text{
+                .inner-text{
+                   .for-margin-left-small{
+                       margin-left: -20%;
+                   }
+                }
+            }
+        }
+    }
+    footer{
+        .my_contianer{
+            ul{
+                .header{
+                    padding: .5rem 0;
+                }
+                li{
+                    a{
+                        padding: .5rem 0;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+// media for 1100px to 1199px 
+@media (min-width: 1100px) and (max-width: 1199px){
+    .banner{
+        .banner-left{
+            margin-top: 10%;
+        }
+        .banner-right{
+            left: 60%;
+        }
+    }
+    .two_button{
+        font-size: .8rem;
+    }
+    .camera_with_virtual_guard{
+        .text{
+            margin-top: 0;
+        }
+    }
+    .all_the_time{
+        .cards{
+            .my_card{
+                height: 580px;
+            }
+        }
+    }
+    .monitoring_your_home{
+        .monitoring-body{
+            .text{
+                .inner-text{
+                   .for-margin-left-small{
+                       margin-left: -20%;
+                       font-size: 1rem;
+                   }
+                }
+            }
+        }
+    }
+    .stop_burglars .inner-stop-burgler .text{
+        margin-top: 0;
+    }
+    footer{
+        .my_contianer{
+            ul{
+                .header{
+                    padding: .5rem 0;
+                }
+                li{
+                    a{
+                        padding: .5rem 0;
+                    }
+                }
+            }
+        }
+    }
+}
+// =====media for 992px to 1099px
+@media (min-width: 992px) and (max-width: 1099px){
+    .banner{
+        .banner-left{
+            margin-top: 10%;
+        }
+        .banner-right{
+            left: 60%;
+        }
+    }
+    .two_button{
+        font-size: .8rem;
+    }
+    .tablets .tablet_each{
+        padding: 1.5rem 2rem;
+    }
+    .camera_with_virtual_guard{
+        .text{
+            margin-top: 0;
+        }
+        .video{
+            margin-top: 4rem;
+        }
+    }
+    .all_the_time{
+        .cards{
+            .my_card{
+                padding: 2rem 1rem;
+                p{
+                    line-height: 1.2rem;
+                }
+            }
+        }
+    }
+    .live_guards {
+        .my_section2{
+            .img{
+                right: -5%;
+            }
+        }
+    }
+    .stop_burglars .inner-stop-burgler .text{
+        margin-top: 0;
+        p{
+            margin-top: 0;
+        }
+    }
+    .superhero {
+        .superhero-body{
+            max-width: 90%;
+        }
+    }
+    .monitoring_your_home{
+        .monitoring-body{
+            .text{
+                .inner-text{
+                    p{
+                        font-size: 1rem;
+                    }
+                   .for-margin-left-small{
+                       margin-left: -20%;
+                       font-size: .8rem;
+                   }
+                   .sp-p{
+                       p{
+                        font-size: 1rem !important;
+                       }
+                   }
+                }
+            }
+            .img{
+                margin-top: 4rem;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    footer{
+        .my_contianer{
+            ul{
+                .header{
+                    padding: .5rem 0;
+                }
+                li{
+                    a{
+                        padding: .5rem 0;
+                    }
+                }
+            }
+        }
+    }
+}
