@@ -1061,11 +1061,1092 @@ footer .my_contianer .for-display-flex .social-icon a:hover {
   .monitoring_your_home .monitoring-body .img img {
     width: 100%;
   }
+  .buy_with_confidence .inner {
+    padding: 4rem 1rem;
+  }
   footer .my_contianer ul .header {
     padding: .5rem 0;
   }
   footer .my_contianer ul li a {
     padding: .5rem 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  header .my_nav .menu .a {
+    font-size: .9rem;
+  }
+  header .my_nav .menu .shop_btn {
+    font-size: .9rem;
+  }
+  .sidebar .nav a {
+    padding: .7rem  0;
+    font-size: .9rem;
+  }
+  .banner .banner-left {
+    margin-top: 10%;
+  }
+  .banner .banner-left h2 {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+  }
+  .banner .banner-right {
+    left: 60%;
+  }
+  .two_button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: .8rem;
+    margin-top: 1.5rem;
+  }
+  .two_button .button-one {
+    margin: .5rem;
+  }
+  .two_button .button-two {
+    margin: .5rem;
+  }
+  .tablets {
+    margin: 0 auto;
+  }
+  .tablets .tablet_each {
+    margin-bottom: 1rem;
+  }
+  .camera_with_virtual_guard {
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .camera_with_virtual_guard .text {
+    margin: 0;
+  }
+  .camera_with_virtual_guard .text h2 {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+  }
+  .camera_with_virtual_guard .text p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  .camera_with_virtual_guard .video {
+    margin-top: 2rem;
+  }
+  .camera_with_virtual_guard .video img {
+    width: 96%;
+  }
+  .camera_with_virtual_guard .below_heading {
+    margin-top: 2rem;
+  }
+  .camera_with_virtual_guard .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .security_alarm {
+    padding: 3rem 0;
+  }
+  .security_alarm .heading h2 {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+  }
+  .security_alarm .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .stop_burglars {
+    padding: 3rem 0;
+  }
+  .stop_burglars .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+  }
+  .stop_burglars .inner-stop-burgler {
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  .stop_burglars .inner-stop-burgler .text {
+    margin-top: 0;
+  }
+  .stop_burglars .inner-stop-burgler .text .sp-p {
+    margin: 0 !important;
+  }
+  .stop_burglars .inner-stop-burgler .text p {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+  .stop_burglars .inner-stop-burgler .text h6 {
+    font-size: 1.2rem;
+  }
+  .stop_burglars .below_heading {
+    margin-top: 3rem;
+  }
+  .stop_burglars .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .superhero {
+    padding: 3rem 0;
+  }
+  .superhero .heading {
+    max-width: 100%;
+  }
+  .superhero .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+  }
+  .superhero .superhero-body {
+    max-width: 100%;
+  }
+  .superhero .superhero-body .for-display-flex {
+    margin-top: 1.5rem;
+  }
+  .superhero .superhero-body .for-display-flex .text p {
+    font-size: 1rem;
+  }
+  .superhero .superhero-body .for-display-flex .img img {
+    width: 120px;
+  }
+  .superhero .below_heading {
+    max-width: 100%;
+    margin-top: 3rem;
+  }
+  .superhero .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .all_the_time {
+    padding: 3rem 0;
+  }
+  .all_the_time .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+  }
+  .all_the_time .heading p {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  .all_the_time .cards .my_card {
+    padding: 1rem 0.5rem;
+    margin: 3rem .5rem 1rem;
+    height: 385px;
+  }
+  .all_the_time .cards .my_card h6 {
+    font-size: 1.1rem;
+  }
+  .all_the_time .cards .my_card p {
+    line-height: 1.5rem;
+  }
+  .all_the_time .below_heading {
+    margin-top: 3rem;
+  }
+  .all_the_time .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .the_easiest {
+    padding: 3rem 0;
+  }
+  .the_easiest .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .the_easiest .below_heading {
+    margin-top: 3rem;
+  }
+  .the_easiest .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .live_guards {
+    padding: 3rem 0;
+  }
+  .live_guards .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .live_guards .my_section1 {
+    margin-top: 6rem;
+  }
+  .live_guards .my_section1 .img {
+    left: 0;
+  }
+  .live_guards .my_section1 .img img {
+    width: 80%;
+  }
+  .live_guards .my_section1 .inner-section {
+    padding: 2.5rem 1rem;
+  }
+  .live_guards .my_section2 {
+    margin-top: 6rem;
+  }
+  .live_guards .my_section2 .img {
+    right: -15%;
+  }
+  .live_guards .my_section2 .img img {
+    width: 70%;
+  }
+  .live_guards .my_section2 .inner-section {
+    padding: 2.5rem 1rem;
+  }
+  .live_guards .below_heading {
+    margin-top: 3rem;
+  }
+  .live_guards .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .monitoring_your_home {
+    padding: 3rem 0;
+  }
+  .monitoring_your_home .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .monitoring_your_home .monitoring-body {
+    margin-top: 2rem;
+  }
+  .monitoring_your_home .monitoring-body .text {
+    margin-right: 0;
+  }
+  .monitoring_your_home .monitoring-body .text h5 {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text {
+    padding: 1rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text p {
+    font-size: 1rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text .sp-span {
+    padding: .5rem .7rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text .for-margin-left-small {
+    margin-left: -20%;
+    font-size: .8rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text .sp-p p {
+    font-size: 1rem !important;
+  }
+  .monitoring_your_home .monitoring-body .img {
+    margin-top: 4rem;
+  }
+  .monitoring_your_home .monitoring-body .img img {
+    width: 100%;
+  }
+  .monitoring_your_home .below_heading {
+    margin-top: 3rem;
+  }
+  .monitoring_your_home .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .buy_with_confidence {
+    padding: 4rem 0;
+  }
+  .buy_with_confidence .img {
+    left: 3%;
+  }
+  .buy_with_confidence .img img {
+    width: 90%;
+  }
+  .buy_with_confidence .inner {
+    padding: 2rem 1rem;
+  }
+  .buy_with_confidence .inner .text h3 {
+    font-size: 1.5rem;
+  }
+  .buy_with_confidence .inner .text p {
+    font-size: .9rem;
+  }
+  .testimonial {
+    padding: 0;
+  }
+  .testimonial .heading {
+    margin-bottom: 1rem;
+  }
+  .testimonial .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .testimonial .my-slider .slide-item .for-box-shadow {
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
+  .testimonial .my-slider .slide-item .for-box-shadow p {
+    font-size: .8rem;
+  }
+  .testimonial .my-slider .slide-item .for-box-shadow .client {
+    margin-top: 2rem;
+  }
+  footer {
+    padding: 3rem 0;
+    padding-bottom: 1rem;
+  }
+  footer .heading {
+    margin-bottom: 1rem;
+  }
+  footer .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  footer .img {
+    margin-top: 0;
+  }
+  footer .my_contianer .below_heading {
+    margin-top: 0;
+  }
+  footer .my_contianer .img {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .sidebar {
+    width: 45%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  header .my_nav .menu .a {
+    font-size: .9rem;
+  }
+  header .my_nav .menu .shop_btn {
+    display: none;
+  }
+  .sidebar .nav a {
+    padding: .7rem  0;
+    font-size: .9rem;
+  }
+  .banner .banner-left {
+    margin-top: 10%;
+  }
+  .banner .banner-left h2 {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+  }
+  .banner .banner-right {
+    opacity: .7;
+    right: 0;
+    left: 0;
+  }
+  .banner .banner-right img {
+    height: 95vh;
+    width: 100%;
+  }
+  .two_button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: .8rem;
+    margin-top: 1.5rem;
+  }
+  .two_button .button-one {
+    margin: .5rem;
+  }
+  .two_button .button-two {
+    margin: .5rem;
+  }
+  .tablets {
+    margin: 0 auto;
+  }
+  .tablets .tablet_each {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .camera_with_virtual_guard {
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .camera_with_virtual_guard .text {
+    margin: 0;
+  }
+  .camera_with_virtual_guard .text h2 {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+  }
+  .camera_with_virtual_guard .text p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  .camera_with_virtual_guard .video {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .camera_with_virtual_guard .video img {
+    width: 95%;
+  }
+  .camera_with_virtual_guard .below_heading {
+    margin-top: 2rem;
+  }
+  .camera_with_virtual_guard .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .security_alarm {
+    padding: 2rem 0;
+  }
+  .security_alarm .heading h2 {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+    text-align: center;
+  }
+  .security_alarm .body div {
+    text-align: center;
+  }
+  .security_alarm .img {
+    height: 500px;
+    text-align: center;
+  }
+  .security_alarm .img img {
+    width: 85%;
+  }
+  .security_alarm .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .stop_burglars {
+    padding: 2rem 0;
+  }
+  .stop_burglars .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .stop_burglars .inner-stop-burgler {
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  .stop_burglars .inner-stop-burgler .text {
+    margin: 0;
+  }
+  .stop_burglars .inner-stop-burgler .text p {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+  .stop_burglars .inner-stop-burgler .text h6 {
+    font-size: 1.2rem;
+  }
+  .stop_burglars .inner-stop-burgler .left-text .sp-p {
+    margin: 0 !important;
+  }
+  .stop_burglars .below_heading {
+    margin-top: 3rem;
+  }
+  .stop_burglars .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .superhero {
+    padding: 2rem 0;
+  }
+  .superhero .heading {
+    max-width: 100%;
+  }
+  .superhero .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+  }
+  .superhero .superhero-body {
+    max-width: 100%;
+  }
+  .superhero .superhero-body .for-display-flex {
+    margin-top: 1.5rem;
+  }
+  .superhero .superhero-body .for-display-flex .text p {
+    font-size: 1rem;
+  }
+  .superhero .superhero-body .for-display-flex .img img {
+    width: 120px;
+  }
+  .superhero .below_heading {
+    max-width: 100%;
+    margin-top: 3rem;
+  }
+  .superhero .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .all_the_time {
+    padding: 2rem 0;
+  }
+  .all_the_time .heading h2 {
+    font-size: 1.9rem;
+    padding: 0;
+    line-height: 2.3rem;
+  }
+  .all_the_time .heading p {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  .all_the_time .cards .my_card {
+    padding: 1rem 0.5rem;
+    margin: 3rem .5rem 1rem;
+    height: 320px;
+  }
+  .all_the_time .cards .my_card h6 {
+    font-size: 1.1rem;
+  }
+  .all_the_time .cards .my_card p {
+    line-height: 1.5rem;
+  }
+  .all_the_time .below_heading {
+    margin-top: 3rem;
+  }
+  .all_the_time .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .the_easiest {
+    padding: 2rem 0;
+  }
+  .the_easiest .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .the_easiest .video {
+    width: 80%;
+  }
+  .the_easiest .below_heading {
+    margin-top: 3rem;
+  }
+  .the_easiest .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .live_guards {
+    padding: 2rem 0;
+  }
+  .live_guards .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .live_guards .my_section1 {
+    margin-top: 2rem;
+  }
+  .live_guards .my_section1 .img {
+    display: none;
+  }
+  .live_guards .my_section1 .inner-section {
+    padding: 2.5rem 1rem;
+  }
+  .live_guards .my_section2 {
+    margin-top: 2rem;
+  }
+  .live_guards .my_section2 .img {
+    display: none;
+  }
+  .live_guards .my_section2 .inner-section {
+    padding: 2.5rem 1rem;
+  }
+  .live_guards .below_heading {
+    margin-top: 3rem;
+  }
+  .live_guards .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .monitoring_your_home {
+    padding: 2rem 0;
+  }
+  .monitoring_your_home .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .monitoring_your_home .monitoring-body {
+    margin-top: 2rem;
+  }
+  .monitoring_your_home .monitoring-body .text {
+    margin-right: 0;
+  }
+  .monitoring_your_home .monitoring-body .text h5 {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text {
+    padding: 1rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text p {
+    font-size: 1rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text .sp-span {
+    padding: .5rem .7rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text .for-margin-left-small {
+    margin-left: -20%;
+    font-size: .8rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text .sp-p p {
+    font-size: 1rem !important;
+  }
+  .monitoring_your_home .monitoring-body .img {
+    margin-top: 4rem;
+  }
+  .monitoring_your_home .monitoring-body .img img {
+    width: 100%;
+  }
+  .monitoring_your_home .below_heading {
+    margin-top: 3rem;
+  }
+  .monitoring_your_home .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .buy_with_confidence {
+    padding: 2rem 0;
+  }
+  .buy_with_confidence .img {
+    display: none;
+  }
+  .buy_with_confidence .inner {
+    padding: 2rem 1rem;
+  }
+  .buy_with_confidence .inner .text .col-4 {
+    display: none;
+  }
+  .buy_with_confidence .inner .text h3 {
+    font-size: 1.5rem;
+  }
+  .buy_with_confidence .inner .text p {
+    font-size: .9rem;
+  }
+  .testimonial {
+    padding: 0;
+  }
+  .testimonial .heading {
+    margin-bottom: 1rem;
+  }
+  .testimonial .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .testimonial .my-slider .slide-item .for-box-shadow {
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
+  .testimonial .my-slider .slide-item .for-box-shadow p {
+    font-size: .8rem;
+  }
+  .testimonial .my-slider .slide-item .for-box-shadow .client {
+    margin-top: 2rem;
+  }
+  footer {
+    padding: 2rem 0;
+    padding-bottom: .5rem;
+  }
+  footer .heading {
+    margin-bottom: 1rem;
+  }
+  footer .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  footer .img {
+    margin-top: 0;
+  }
+  footer .my_contianer .below_heading {
+    margin-top: 0;
+  }
+  footer .my_contianer .img {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .sidebar {
+    width: 45%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .container {
+    width: 98%;
+  }
+  header .my_nav .logo {
+    padding-left: .2rem;
+  }
+  header .my_nav .logo img {
+    width: 85%;
+  }
+  header .my_nav .menu {
+    padding-right: .2rem;
+  }
+  header .my_nav .menu .a {
+    display: none;
+  }
+  header .my_nav .menu .shop_btn {
+    display: none;
+  }
+  .sidebar .nav a {
+    padding: .7rem  0;
+    font-size: .9rem;
+  }
+  .banner .banner-left {
+    margin-top: 10%;
+  }
+  .banner .banner-left h2 {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+  }
+  .banner .banner-right {
+    opacity: .7;
+    right: 0;
+    left: 0;
+  }
+  .banner .banner-right img {
+    height: 95vh;
+    width: 100%;
+  }
+  .two_button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: .8rem;
+    margin-top: 1.5rem;
+  }
+  .two_button .button-one {
+    margin: .5rem;
+  }
+  .two_button .button-two {
+    margin: .5rem;
+  }
+  .tablets {
+    margin: 0 auto;
+  }
+  .tablets .tablet_each {
+    margin: 1rem 2rem;
+  }
+  .camera_with_virtual_guard {
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .camera_with_virtual_guard .text {
+    margin: 0;
+    text-align: center;
+  }
+  .camera_with_virtual_guard .text h2 {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+    margin-bottom: 1rem;
+  }
+  .camera_with_virtual_guard .text p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  .camera_with_virtual_guard .video {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .camera_with_virtual_guard .video img {
+    width: 95%;
+  }
+  .camera_with_virtual_guard .below_heading {
+    margin-top: 2rem;
+  }
+  .camera_with_virtual_guard .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .security_alarm {
+    padding: 2rem 0;
+  }
+  .security_alarm .heading h2 {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+    text-align: center;
+  }
+  .security_alarm .body div {
+    text-align: center;
+  }
+  .security_alarm .img {
+    height: 525px;
+    text-align: center;
+  }
+  .security_alarm .img img {
+    width: 85%;
+  }
+  .security_alarm .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .stop_burglars {
+    padding: 2rem 0;
+  }
+  .stop_burglars .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .stop_burglars .inner-stop-burgler {
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  .stop_burglars .inner-stop-burgler .text {
+    margin: 0;
+  }
+  .stop_burglars .inner-stop-burgler .text .sp-p {
+    margin: 0 !important;
+  }
+  .stop_burglars .inner-stop-burgler .text p {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+  .stop_burglars .inner-stop-burgler .text h6 {
+    font-size: 1.2rem;
+  }
+  .stop_burglars .inner-stop-burgler .left-text .sp-p {
+    margin: 0 !important;
+  }
+  .stop_burglars .below_heading {
+    margin-top: 3rem;
+  }
+  .stop_burglars .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .superhero {
+    padding: 2rem 0;
+  }
+  .superhero .heading {
+    max-width: 100%;
+  }
+  .superhero .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+  }
+  .superhero .superhero-body {
+    max-width: 100%;
+  }
+  .superhero .superhero-body .for-display-flex {
+    margin-top: 1.5rem;
+  }
+  .superhero .superhero-body .for-display-flex .text p {
+    font-size: 1rem;
+  }
+  .superhero .superhero-body .for-display-flex .img img {
+    width: 120px;
+  }
+  .superhero .below_heading {
+    max-width: 100%;
+    margin-top: 3rem;
+  }
+  .superhero .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .all_the_time {
+    padding: 2rem 0;
+  }
+  .all_the_time .heading h2 {
+    font-size: 1.9rem;
+    padding: 0;
+    line-height: 2.3rem;
+  }
+  .all_the_time .heading p {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  .all_the_time .cards .my_card {
+    padding: 1rem 0.5rem;
+    margin: 3rem 4rem 1rem;
+    height: 320px;
+  }
+  .all_the_time .cards .my_card h6 {
+    font-size: 1.1rem;
+  }
+  .all_the_time .cards .my_card p {
+    line-height: 1.5rem;
+  }
+  .all_the_time .below_heading {
+    margin-top: 3rem;
+  }
+  .all_the_time .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .the_easiest {
+    padding: 2rem 0;
+  }
+  .the_easiest .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .the_easiest .video {
+    width: 80%;
+  }
+  .the_easiest .below_heading {
+    margin-top: 3rem;
+  }
+  .the_easiest .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .live_guards {
+    padding: 2rem 0;
+  }
+  .live_guards .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .live_guards .my_section1 {
+    margin-top: 2rem;
+  }
+  .live_guards .my_section1 .img {
+    display: none;
+  }
+  .live_guards .my_section1 .inner-section {
+    padding: 1rem .5rem;
+  }
+  .live_guards .my_section2 {
+    margin-top: 2rem;
+  }
+  .live_guards .my_section2 .img {
+    display: none;
+  }
+  .live_guards .my_section2 .inner-section {
+    padding: 1rem .5rem;
+  }
+  .live_guards .below_heading {
+    margin-top: 3rem;
+  }
+  .live_guards .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .monitoring_your_home {
+    padding: 2rem 0;
+  }
+  .monitoring_your_home .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .monitoring_your_home .monitoring-body {
+    margin-top: 2rem;
+  }
+  .monitoring_your_home .monitoring-body .text {
+    margin-right: 0;
+  }
+  .monitoring_your_home .monitoring-body .text h5 {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text {
+    padding: 1rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text p {
+    font-size: 1rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text .sp-span {
+    padding: .5rem .7rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text .for-margin-left-small {
+    margin-left: -20%;
+    font-size: .8rem;
+    margin-top: .6rem;
+  }
+  .monitoring_your_home .monitoring-body .text .inner-text .sp-p p {
+    font-size: 1rem !important;
+  }
+  .monitoring_your_home .monitoring-body .img {
+    margin-top: 4rem;
+  }
+  .monitoring_your_home .monitoring-body .img img {
+    width: 100%;
+  }
+  .monitoring_your_home .below_heading {
+    margin-top: 3rem;
+  }
+  .monitoring_your_home .below_heading h3 {
+    font-size: 1.5rem;
+  }
+  .buy_with_confidence {
+    padding: 2rem 0;
+  }
+  .buy_with_confidence .img {
+    display: none;
+  }
+  .buy_with_confidence .inner {
+    padding: 2rem 1rem;
+  }
+  .buy_with_confidence .inner .text .col-4 {
+    display: none;
+  }
+  .buy_with_confidence .inner .text h3 {
+    font-size: 1.5rem;
+  }
+  .buy_with_confidence .inner .text p {
+    font-size: .9rem;
+  }
+  .testimonial {
+    padding: 0;
+  }
+  .testimonial .heading {
+    margin-bottom: 1rem;
+  }
+  .testimonial .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  .testimonial .my-slider .slide-item .for-box-shadow {
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
+  .testimonial .my-slider .slide-item .for-box-shadow p {
+    font-size: .8rem;
+  }
+  .testimonial .my-slider .slide-item .for-box-shadow .client {
+    margin-top: 2rem;
+  }
+  footer {
+    padding: 2rem 0;
+    padding-bottom: .5rem;
+  }
+  footer .heading {
+    margin-bottom: 1rem;
+  }
+  footer .heading h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    padding: 0;
+  }
+  footer .img {
+    margin-top: 0;
+  }
+  footer .my_contianer .for-display-flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .my_contianer .below_heading {
+    margin-top: 0;
+  }
+  footer .my_contianer .img {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .sidebar {
+    width: 45%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+  .security_alarm .img {
+    height: 430px;
+    text-align: center;
+  }
+  .security_alarm .img img {
+    width: 85%;
+  }
+  .live_guards .my_section1 .inner-section {
+    padding: 1rem .5rem;
+  }
+  .live_guards .my_section1 .inner-section table tbody tr td img {
+    width: 60px;
+  }
+  .live_guards .my_section2 .inner-section {
+    padding: 1rem .5rem;
+  }
+  .live_guards .my_section2 .inner-section table tbody tr td img {
+    width: 60px;
   }
 }
 /*# sourceMappingURL=style.css.map */

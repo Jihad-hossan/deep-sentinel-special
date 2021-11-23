@@ -23,5 +23,18 @@ var slider = tns({
   slideBy: 'page',
   autoplay: true, 
   controls: false,
-  nav: false
+  nav: false,
+  responsive: {
+      320: {
+        edgePadding: 20,
+        gutter: 20,
+        items: 1
+      },
+      700: {
+        gutter: 30
+      },
+      768: {
+        items:2 
+      }
+    }
 });
